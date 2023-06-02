@@ -1,3 +1,5 @@
 com\cucumber\AppTest.class
 com\runner\AdactinRunner.class
+com\runner\Google.class
+com\Stepdefinition1\googlestep.class
 com\Stepdefinition\Stepdefinition1.class

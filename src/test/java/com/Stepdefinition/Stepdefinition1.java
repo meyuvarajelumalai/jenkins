@@ -187,7 +187,7 @@ public class Stepdefinition1 {
 	public void to_Tack_Screen_Shot() throws Throwable {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File as = ts.getScreenshotAs(org.openqa.selenium.OutputType.FILE);
-		File des = new File("C:\\Users\\elang\\eclipse-workspace\\Maven_Pro\\ScreenShot\\CuCu.png");
+		File des = new File("D:\\C drive\\Yui\\eclipse-workspace\\cucumber\\Screenshot\\CuCu.png");
 		FileUtils.copyFile(as, des);
 
 	}
